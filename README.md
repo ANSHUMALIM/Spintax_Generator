@@ -17,12 +17,12 @@ Credentials: API key and endpoint from Azure
 :rocket: Getting Started
 1. Clone & Setup Virtual Environment
 bash
-git clone https://github.com/your-username/spintax-email-generator.git
-cd spintax-email-generator
+https://github.com/ANSHUMALIM/Spintax_Generator.git
 
 # Create & activate virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+cd venv
 
 2. Install dependencies
 -pip install "openai>=1.14.0" azure-identity python-dotenv
