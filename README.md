@@ -51,7 +51,7 @@ Usage
 
 Run the service:
 
-python spintax_service.py
+python main.py
 
 It will ask you for a short email brief (e.g. Invite engineering leads to a demo).
 
