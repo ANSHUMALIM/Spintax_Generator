@@ -37,7 +37,7 @@ source venv/bin/activate       # On Windows: venv\Scripts\activate
 cd venv
 
 # Install dependencies
-pip install "openai>=1.14.0" azure-identity python-dotenv```
+pip install "openai>=1.14.0" azure-identity python-dotenv
 
 
 ## Usage
