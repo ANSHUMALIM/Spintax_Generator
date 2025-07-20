@@ -16,22 +16,22 @@ Credentials: API key and endpoint from Azure
 
 Getting Started
 1. Clone & Setup Virtual Environment
-'''bash
+   
 https://github.com/ANSHUMALIM/Spintax_Generator.git
 
 # Create & activate virtual environment
-'''bash
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 cd venv
 
 # Install dependencies
-'''bash
+
 pip install "openai>=1.14.0" azure-identity python-dotenv
 
 Usage
 Run the service:
-'''bash
+
 python spintax_service.py
 
 It will ask you for a short email brief (e.g. Invite engineering leads to a demo).
