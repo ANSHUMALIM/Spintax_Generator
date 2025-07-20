@@ -29,28 +29,24 @@ This project is a production-ready **Spintax Email Generator** microservice powe
 
 ```bash
 git clone https://github.com/ANSHUMALIM/Spintax_Generator.git
-cd Spintax_Generator
+
 
 # Create & activate virtual environment
 python -m venv venv
 source venv/bin/activate       # On Windows: venv\Scripts\activate
+cd venv
 
 # Install dependencies
-pip install "openai>=1.14.0" azure-identity python-dotenv
+pip install "openai>=1.14.0" azure-identity python-dotenv```
 
-# Spintax Email Generator
 
 ## Usage
 
-Run the service:
+#Run the service:
 
-```bash
 python main.py
 
-It will ask you for a short email brief (e.g. Invite engineering leads to a demo).
-
-GPT will return a valid spintax email.
-
-The service checks for spam/tone issues.
-
-Five unique email variants will be printed using provided variables.(which can be changed further)
+# It will ask you for a short email brief (e.g. Invite engineering leads to a demo).
+# GPT will return a valid spintax email.
+# The service checks for spam/tone issues.
+# Five unique email variants will be printed using provided variables.(which can be changed further)
