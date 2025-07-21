@@ -215,7 +215,7 @@ if __name__ == "__main__":
         template=tpl,
         # variables={"first_name": firstName, "company": Company_name},
         variables={"first_name": "Ada", "company": "Acme Cloud"},
-        n_variations=5,
+        n_variations=10,
     )
     print("\n=== Ready-to-send variants ===")
     for v in variants:
